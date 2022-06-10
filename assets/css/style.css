@@ -114,6 +114,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: -315px;
+  padding-left: 388px;
+  padding-right: 340px;
+
 }
 
 @media (max-width: 1199px) {
@@ -198,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url(../img/hero-bgw.webp) top center;
   background-size: cover;
   
 }
@@ -1021,4 +1024,8 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+.aboutImg{
+  max-width: 81%;
+    height: auto;
 }
